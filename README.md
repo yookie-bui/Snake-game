@@ -1,4 +1,4 @@
 # Snake-game
-First pygame project with Snake__
-Created on March 25 2021__
-By Yookie__
+First pygame project with Snake\
+Created on March 25 2021\
+By Yookie\
