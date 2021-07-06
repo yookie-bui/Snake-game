@@ -63,6 +63,9 @@ def gameLoop():
     clock = pygame.time.Clock()
 
     while running:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                running = False
         #End screen
         while closing == True:
             screen.fill(BLACK)
@@ -91,8 +94,6 @@ def gameLoop():
         else:
         #Snake control
             for event in pygame.event.get():
-                if event.type == pygame.QUIT:
-                    running = False
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_LEFT:
                         x_change = -10
