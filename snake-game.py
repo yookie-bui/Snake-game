@@ -110,7 +110,7 @@ def gameLoop():
 
             if x_snake >= WIDTH or x_snake < 0 or y_snake >= HEIGHT or y_snake < 0: #game ends when snake run out of screen
                 closing = True
-                print(closing)
+       
 
         #Snake movement and snake length update
             x_snake += x_change
